@@ -9,11 +9,11 @@ public class ExampleTest {
 
     @Test
     void exampleTest0() {
-        Assertions.assertTrue(new Random().nextInt() > 1);
+        Assertions.assertTrue(new Random().nextInt() > 2);
     }
 
     @Test
     void exampleTest1() {
-        Assertions.assertTrue(new Random().nextInt() > 2);
+        Assertions.assertTrue(new Random().nextInt() > 3);
     }
 }
